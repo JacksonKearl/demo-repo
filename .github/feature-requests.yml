@@ -3,11 +3,11 @@
     name: 'feature-request'
   },
   candidateMilestone: {
-    number: 107,
+    number: 2,
     name: 'Backlog Candidates'
   },
   approvedMilestone: {
-    number: 8,
+    number: 1,
     name: 'Backlog'
   },
   onLabeled: {
