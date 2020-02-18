@@ -4,9 +4,10 @@
 ## Setup
 Create Milestones "Backlog" then "Backlog Candidates", in that order.
 
+Ensure the label `needs more info` exists.
+
 Ensure Backlog is https://github.com/[...this...]/milestone/1 and Backlog Candidates is https://github.com/[...this...]/milestone/2, if they aren't simply update the relavant config lines in `.github/feature-requests`:
 
-Ensure the labels: `needs more info`
 
 ```
   candidateMilestone: {
