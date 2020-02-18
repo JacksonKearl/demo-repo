@@ -38,4 +38,4 @@ If an issue goes `.github/locker.yml#daysAfterClose` days (1 minute) without hav
 
 ### Needs More Info
 
-If an issue goes `.github/needs_more_info.yml#daysUntilClose` days (1 minute) since update with the label `needs mroe info`, it will be closed.
+If an issue goes `.github/needs_more_info.yml#daysUntilClose` days (1 minute) since update with the label `needs more info`, it will be closed.
