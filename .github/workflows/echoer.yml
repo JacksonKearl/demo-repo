@@ -11,4 +11,4 @@ jobs:
     steps:
     - name: Echoer
       id: echo
-      uses: JacksonKearl/github-action-commands
+      uses: JacksonKearl/github-action-commands@v1
