@@ -1,0 +1,14 @@
+on:
+  issue_comment:
+    types: [created]
+  issues:
+    types: [opened]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: A job to echo context payloads
+    steps:
+    - name: Echoer
+      id: echo
+      uses: JacksonKearl/github-action-commands
