@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: "30 * * * *"
+    - cron: "* * * * *"
   issue_comment:
     types: [created]
   issues:
