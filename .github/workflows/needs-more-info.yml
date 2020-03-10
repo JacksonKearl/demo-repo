@@ -14,3 +14,5 @@ jobs:
           ref: master # todo: change to tags once stabalized
       - name: Run Needs More Info
         uses: ./needs-more-info
+        with:
+          matcher: Version 
