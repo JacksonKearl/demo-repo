@@ -4,7 +4,7 @@ on:
     types: [opened]
 
 jobs:
-  hello_world_job:
+  main:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Actions

@@ -1,11 +1,9 @@
-name: Echoer
+name: Commands
 on:
-  schedule:
-    - cron: "0 0 * * *"
   issue_comment:
     types: [created]
   issues:
-    types: [opened,labeled]
+    types: [labeled]
 
 jobs:
   main:
@@ -16,5 +14,7 @@ jobs:
         with:
           repository: 'JacksonKearl/vscode-triage-github-actions'
           ref: master
-      - name: Run Echoer
-        uses: ./echoer
+      - name: Run Commands
+        uses: ./commands
+        with:
+          config-path: commands
