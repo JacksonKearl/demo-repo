@@ -16,3 +16,4 @@ jobs:
         uses: ./needs-more-info
         with:
           matcher: Version 
+          label: needs more info
