@@ -15,6 +15,6 @@ jobs:
       - name: Run Needs More Info
         uses: ./needs-more-info
         with:
-          token: ${{secrets.personaltoken}}
+          token: ${{secrets.apptoken}}
           matcher: 'version\W*:\W*\d\.\d\d\.\d'
           label: ~needs more info
