@@ -15,5 +15,5 @@ jobs:
       - name: Run Needs More Info
         uses: ./needs-more-info
         with:
-          matcher: Version 
+          matcher: 'version\W*:\W*\d\.\d\d\.\d'
           label: needs more info
