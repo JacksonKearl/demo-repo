@@ -17,4 +17,5 @@ jobs:
       - name: Run Commands
         uses: ./commands
         with:
+          token: ${{secrets.personaltoken}}
           config-path: commands
