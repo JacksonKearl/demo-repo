@@ -16,6 +16,6 @@ jobs:
         with:
           path: repo
           repository: 'Microsoft/vscode'
-          fetch-depth: 0 # all
+          fetch-depth: 1000
       - name: Run Locker
         uses: ./actions/author-verified
